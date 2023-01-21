@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TECH GAMER - A sua loja de games!</title>
+
+    <!--Bootstrap Style Link-->
+    <link href="/css/bootstrap.css" rel="stylesheet">
+
+    <!--Font Awesome Style Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Style Link-->
+    <link href="/css/style.css" rel="stylesheet">
+
+    <!--Swiper Style Link-->
+    <link rel="stylesheet" href="/css/swiper-bundle.css" />
+
+
+</head>
+
+<body>
+
+    <section name="top">
+        <div class="container-fluid bg-black position-relative pb-1 d-flex align-items-center justify-content-between">
+            <a class="text-primary text-center justify-content-center" id="address"
+                href="https://www.google.com/maps/place/Rua+Maria+Lu%C3%ADsa+do+Val+Penteado+-+Cidade+S%C3%A3o+Mateus,+S%C3%A3o+Paulo+-+SP,+03962-040/@-23.6080206,-46.4849595,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce67d5d61891c1:0x4d350796728b73b4!8m2!3d-23.6080206!4d-46.4827708"
+                target="_blank">
+                <p class="text-center">Rua Maria Luísa do
+                    Val
+                    Penteado, Cidade
+                    São Mateus - São Paulo - SP - CEP 03962040 | Central de Atendimento</p>
+            </a>
+            <div class="icons-top">
+                <a href="#"><i class="fa-brands fa-facebook px-1"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram px-1"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp px-1"></i></a>
+                <a href="#"><i class="fa-solid fa-envelope px-1"></i></a>
+            </div>
+        </div>
+        <div class="head container-fluid bg-secondary pt-4">
+            <a class="logo" href="#">
+                <img class="logoimg mx-3" src="/img/icons/console_green.png">
+                <h3 class="title text-success px-1">TECH GAMER</h3>
+            </a>
+            <form class="input-search d-flex align-items-center" role="search">
+                <input class="search bg-black me-2 border-0 text-center text-primary" type="search"
+                    placeholder="Digite aqui sua pesquisa" aria-label="Pesquisa">
+                <a href="#"><i class="fa-solid fa-magnifying-glass fa-xl px-2"></i></a>
+            </form>
+            <a class="services" href="login.html">
+                <i class="fa-solid fa-user fa-xl p-2" style="margin-left: 60px;"></i>
+                <p style="margin-top: 14px;">Minha Conta</p>
+            </a>
+            <a class="services" href="#">
+                <i class="fa-solid fa-cart-shopping fa-xl px-3" style="margin-left: 30px;"></i>
+                <p style="margin-top: 14px;">Carrinho</p>
+            </a>
+        </div>
+        <div class="container-fluid bg-secondary py-2 d-flex justify-content-center">
+
+            <nav class="navbar navbar-expand-lg bg-secondary justify-content-center align-items-center">
+                <div class="container-fluid">
+                    <button class="navbar-toggler mb-2" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-uppercase">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Início</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Lançamentos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pc Gamer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Desktop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Hardware</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Periféricos</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Loja
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item active" href="#">Lançamentos</a></li>
+                                    <li><a class="dropdown-item" href="#">Games</a></li>
+                                    <li><a class="dropdown-item" href="#">PC's</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Hardware</a></li>
+                                    <li><a class="dropdown-item" href="#">Periféricos</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Notícias</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <section name="slider-top">
+        <div class="container-fluid bg-black position-relative pb-1 d-flex align-items-center justify-content-between">
+
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="/img/setup_01.jpg"></div>
+                    <div class="swiper-slide"><img src="/img/produtos/01.jpg"></div>
+                    <div class="swiper-slide"><img src="/img/produtos/02.jpg"></div>
+                    <div class="swiper-slide"><img src="/img/produtos/03.jpg"></div>
+                    <div class="swiper-slide"><img src="/img/produtos/04.jpg"></div>
+                    <div class="swiper-slide"><img src="/img/produtos/05.jpg"></div>
+                    <div class="swiper-slide"><img src="/img/produtos/06.jpg"></div>
+                    <div class="swiper-slide"><img src="/img/produtos/07.jpg"></div>
+                    <div class="swiper-slide"><img src="/img/produtos/08.jpg"></div>
+                    <div class="swiper-slide"><img src="/img/produtos/09.jpg"></div>
+                    <div class="swiper-slide"><img src="/img/produtos/10.jpg"></div>
+                    <div class="swiper-slide"><img src="/img/produtos/11.jpg"></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+
+        </div>
+    </section>
+
+    <section name="banner01">
+        <div class="container-fluid bg-primary p-4 d-flex flex-column align-items-center">
+            <div class="anim-icon">
+                <div class="icon icon-1"></div>
+                <div class="icon icon-2"></div>
+            </div>
+            <h3 class="text-banner pt-0">MONTE SEU PC GAMER CONOSCO<br>
+                20% DE DESCONTO SOMENTE NESSE MÊS! </h3>
+            <button class="btn-purple">CLIQUE AQUI!</button>
+        </div>
+    </section>
+
+    <section name="Gallery">
+        <div class="container-fluid bg-black p-4 d-flex flex-column align-items-center">
+            <h3 class="title-primary text-center text-primary text-uppercase pb-4">Galeria</h3>
+
+            <div class="images-wrapper">
+                <div class="img-cont">
+                    <img class="image" src="/img/produtos/01.jpg" data-full="/img/produtos/01.jpg" alt="Mouse Red">
+                </div>
+                <div class="img-cont">
+                    <img class="image" src="/img/produtos/02.jpg" data-full="/img/produtos/02.jpg" alt="Teclado Red">
+                </div>
+                <div class="img-cont">
+                    <img class="image" src="/img/produtos/03.jpg" data-full="/img/produtos/03.jpg" alt="Setup 01">
+                </div>
+                <div class="img-cont">
+                    <img class="image" src="/img/produtos/04.jpg" data-full="/img/produtos/04.jpg"
+                        alt="Gabinete Corsair">
+                </div>
+                <div class="img-cont">
+                    <img class="image" src="/img/produtos/05.jpg" data-full="/img/produtos/05.jpg" alt="Setup 02">
+                </div>
+                <div class="img-cont">
+                    <img class="image" src="/img/produtos/06.jpg" data-full="/img/produtos/06.jpg" alt="Setup 03">
+                </div>
+                <div class="img-cont">
+                    <img class="image" src="/img/produtos/07.jpg" data-full="/img/produtos/07.jpg" alt="Gabinete Black">
+                </div>
+                <div class="img-cont">
+                    <img class="image" src="/img/produtos/08.jpg" data-full="/img/produtos/08.jpg" alt="Monitor Led">
+                </div>
+                <div class="img-cont">
+                    <img class="image" src="/img/produtos/09.jpg" data-full="/img/produtos/09.jpg" alt="Mouse Razer">
+                </div>
+                <div class="img-cont">
+                    <img class="image" src="/img/produtos/10.jpg" data-full="/img/produtos/10.jpg" alt="Gabinete Tech">
+                </div>
+            </div>
+
+            <div class="full-image-container">
+                <img class="full-image" src="" alt="">
+                <p class="image-title text-uppercase"></p>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section name="banner02">
+        <div class="container-fluid bg-primary p-5 d-flex flex-column align-items-center">
+            <div class="anim-icon">
+                <div class="icon icon-3"></div>
+            </div>
+            <h3 class="text-banner2 pt-0">VÁRIOS PERIFÉRICOS E HARDWARE DA MAIOR
+                QUALIDADE<br>
+                PRA VOCÊ DAR UM UPGRADE NO SEU SETUP!</h3>
+        </div>
+    </section>
+
+    <section name="news">
+        <div class="container-fluid bg-black p-5 d-flex flex-column">
+            <h3 class="title-primary text-center text-primary text-uppercase pb-4">Notícias</h3>
+            <div class="news-item d-flex align-items-center">
+                <img src="/img/csgo.jpg" class="rounded img-news img-fluid">
+                <div class="text-news d-flex flex-column flex-start px-3 align-items-center">
+                    <h6 class="text-center text-uppercase pb-4">Esportes eletrônicos: Rio de Janeiro receberá
+                        Mundial de counter strike</h6>
+                    <p class="text-center">Um dos assuntos mais comentados na internet nesta semana animou muito os
+                        brasileiros. O Rio de Janeiro será palco do IEM Major Rio de 2023, o Campeonato Mundial de
+                        Counter-strike: Global Offensive (CS:GO).</p>
+                    <p class="text-center">O torneio já tem data para acontecer. Entre os dias 31 de outubro e 13 de
+                        novembro, a "Cidade Maravilhosa" recebe as 24 equipes espalhadas ao redor do mundo em busca dos
+                        1 milhão de dólares e do tão almejado título Major.</p>
+                    <button class="btn-purple text-uppercase">Leia Mais!</button>
+                </div>
+            </div>
+            <div class="anim-icon">
+                <div class="icon icon-4"></div>
+                <div class="icon icon-5"></div>
+            </div>
+        </div>
+    </section>
+
+    <section name="footer">
+        <div class="footer container-fuild bg-secondary py-4">
+            <div class="item-footer col-lg-2 px-3">
+                <a class="logo d-flex flex-column align-items-center" href="#">
+                    <img class="logoimg mx-3" src="/img/icons/console_green.png">
+                    <h3 class="title text-center text-success pt-3">TECH GAMER</h3>
+                </a>
+                <div class="icons-footer pt-1">
+                    <a href="#"><i class="fa-brands fa-facebook fa-xl px-2"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram fa-xl px-2"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp fa-xl px-2"></i></a>
+                    <a href="#"><i class="fa-solid fa-envelope fa-xl px-2"></i></a>
+                </div>
+            </div>
+            <div class="item-footer col-lg-2 px-3 text-footer">
+                <h6 class="text-right text-uppercase pb-1">Atendimento</h6>
+                <p class="text-right">Horário de atendimento:
+                    08:00 às 20:00 -
+                    Segunda a Sábado,
+                    horário de Brasília
+                    (Exceto domingo e feriados)</p>
+                <p class="text-right">Endereço: Rua Maria Luísa do Val Penteado, Cidade São Mateus - São Paulo
+                    - SP
+                    CEP: 03962-040</p>
+            </div>
+            <div class="item-footer col-lg-2 px-3 text-footer d-flex flex-column justify-content-start">
+                <h6 class="text-right text-uppercase pb-1">Mapa do Site</h6>
+                <a class="text-right" href="#"><i class="fa fa-angle-right text-success mr-2"></i> Início</a>
+                <a class="text-right" href="#"><i class="fa fa-angle-right text-success mr-2"></i> Lançamentos</a>
+                <a class="text-right" href="#"><i class="fa fa-angle-right text-success mr-2"></i> PC Gamer</a>
+                <a class="text-right" href="#"><i class="fa fa-angle-right text-success mr-2"></i> Desktop</a>
+                <a class="text-right" href="#"><i class="fa fa-angle-right text-success mr-2"></i> Hardware</a>
+                <a class="text-right" href="#"><i class="fa fa-angle-right text-success mr-2"></i> Periféricos</a>
+                <a class="text-right" href="#"><i class="fa fa-angle-right text-success mr-2"></i> Loja</a>
+                <a class="text-right" href="#"><i class="fa fa-angle-right text-success mr-2"></i> Notícias</a>
+                <a class="text-right" href="#"><i class="fa fa-angle-right text-success mr-2"></i> Contato</a>
+            </div>
+            <div class="item-footer col-lg-3 px-3 text-footer d-flex flex-column justify-content-start">
+                <div class="pb-4">
+                    <h6 class="text-right text-uppercase pb-2">Segurança</h6>
+                    <div class="d-flex flex-row">
+                        <img class="img-fluid rounded" src="/img/ssl-color.svg">
+                        <img class="img-fluid rounded mx-4" src="/img/googlesafe-color.svg">
+                    </div>
+                </div>
+                <div class="">
+                    <h6 class="text-right text-uppercase pb-2">Pagamento</h6>
+                    <img class="img-fluid rounded" src="/img/bandeiras-3.png">
+                </div>
+            </div>
+            <div class="item-footer col-lg-3 px-3 text-footer d-flex flex-column justify-content-start align-items-center">
+                <h6 class="text-right text-uppercase pb-2">Quer receber novidades da loja?!</h6>
+                <input class="input-footer bg-black border-0 text-center text-primary mb-3" type="email" name="e-mail" placeholder="Digite aqui o seu e-mail.">
+                <button class="btn-purple text-uppercase">Assinar</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Back to Top Button-->
+    <a href="#" class="btn btn-md btn-success btn-md-square back-to-top"><i class="fa fa-angle-up"></i></a>
+
+
+
+    <!--Boostrap Script Link-->
+    <script src="/js/bootstrap.bundle.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+    <!-- JQuery Libray -->
+
+    <script src="/js/jquery.js"></script>
+
+    <!-- Main JS -->
+
+    <script src="/js/main.js"></script>
+
+</body>
+
+</html>

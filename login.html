@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TECH GAMER - A sua loja de games!</title>
+
+    <!--Bootstrap Style Link-->
+    <link href="/css/bootstrap.css" rel="stylesheet">
+
+    <!--Font Awesome Style Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Style Link-->
+    <link href="/css/login.css" rel="stylesheet">
+
+    <!--Swiper Style Link-->
+    <link rel="stylesheet" href="/css/swiper-bundle.css" />
+
+
+</head>
+
+<body class="bg-secondary">
+
+    <div class="container-fluid bg-black position-relative pb-1 d-flex align-items-center justify-content-between">
+        <a class="text-primary text-center justify-content-center" id="address"
+            href="https://www.google.com/maps/place/Rua+Maria+Lu%C3%ADsa+do+Val+Penteado+-+Cidade+S%C3%A3o+Mateus,+S%C3%A3o+Paulo+-+SP,+03962-040/@-23.6080206,-46.4849595,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce67d5d61891c1:0x4d350796728b73b4!8m2!3d-23.6080206!4d-46.4827708"
+            target="_blank">
+            <p class="text-center">Rua Maria Luísa do
+                Val
+                Penteado, Cidade
+                São Mateus - São Paulo - SP - CEP 03962040 | Central de Atendimento</p>
+        </a>
+        <div class="icons-top">
+            <a href="#"><i class="fa-brands fa-facebook px-1"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram px-1"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp px-1"></i></a>
+            <a href="#"><i class="fa-solid fa-envelope px-1"></i></a>
+        </div>
+    </div>
+
+    <section id="section-login">
+        <div class="container-fluid p-5 d-flex flex-column align-items-center justify-content-center">
+            <form method="post" action="" id="login" class="d-flex flex-column justify-content-center align-items-center">
+                <a class="logo" href="index.html">
+                    <img class="logoimg img-fluid mx-3" src="/img/icons/console_green.png">
+                    <h3 class="title text-success px-1">TECH GAMER</h3>
+                </a>
+                <label for="username">Usuário</label>
+                <input name="name" class="bg-black border-1" type="text" placeholder="E-mail ou Telefone" id="username" required>
+
+                <label for="password">Senha</label>
+                <input name="pass" class="bg-black" type="password" placeholder="Senha" id="password" required>
+
+                <input type="button" class="btn-purple" id="btn-login" value="Entrar">
+
+                <input type="button" class="btn-purple" id="btn-sign" value="Cadastre-se">
+
+            </form>
+        </div>
+    </section>
+
+    <section id="section-sign">
+        <div class="container-fluid p-5 d-flex flex-column align-items-center justify-content-center">
+            <form method="post" action="" id="sign" class="d-flex flex-column justify-content-center align-items-center">
+                <a class="logo" href="index.html">
+                    <img class="logoimg img-fluid mx-3" src="/img/icons/console_green.png">
+                    <h3 class="title text-success px-1">TECH GAMER</h3>
+                </a>
+                <label for="username">Usuário</label>
+                <input name="username" class="bg-black" type="text" placeholder="ex. nome de usuario" id="username" required>
+        
+                <label for="email">E-mail</label>
+                <input name="email" class="bg-black" type="email" placeholder="seu@email.com.br" id="email" required>
+        
+                <label for="password">Senha</label>
+                <input name="password" class="bg-black" type="password" placeholder="mínimo de 6 caracteres" id="password" required>
+        
+                <input type="button" value="Cadastrar" class="btn-purple" id="btn-login" onclick="signIn()">
+            </form>
+        </div>
+    </section>
+
+
+    <!--Boostrap Script Link-->
+    <script src="/js/bootstrap.bundle.js"></script>
+
+    <!-- Main JS -->
+
+    <script src="/js/main.js"></script>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/jquery-script.js"></script>
+
+</body>
+
+</html>
